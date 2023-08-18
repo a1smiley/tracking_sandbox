@@ -1,0 +1,1 @@
+If you need to update packages through the corporate proxy, modify the Startup.jl file located at "C:\Users\ajs31370\.julia\config"

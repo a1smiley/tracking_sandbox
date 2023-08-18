@@ -1,0 +1,28 @@
+"""
+    bar(n[, y[, dim]])
+
+Compute the Bar index between `n` and `y`.
+
+If `y` is unspecified, compute the Bar index between all pairs of `x` along an (optionally) specified dimension.
+
+See also [`bar!`](@ref), [`baz`](@ref), [`baaz`](@ref).
+
+# Arguments
+- `n::Integer`: the first elements of Bar index computation.
+- `y::Integer`: the (optional) second elements of Bar index computation.
+- `dim::Integer=1`: the dimensions along which to perform the computation.
+
+# Examples
+```julia-repl
+julia> bar([1, 2], [1, 2])
+1
+```
+
+# Examples
+```jldoctest
+julia> a = [1 2; 3 4]
+2×2 Array{Int64,2}:
+ 1  2
+ 3  4
+```
+"""
